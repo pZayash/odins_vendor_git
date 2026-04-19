@@ -109,9 +109,11 @@ flowchart
 
 Процедуры собраны в модули, ниже приведены примеры модулей.
 
-| Серверные тесты | [docs/examples/conf/CommonModules/яя_тестыСервер/Ext/Module.bsl](docs/examples/conf/CommonModules/яя_тестыСервер/Ext/Module.bsl) |
-| Клиентские тесты | [docs/examples/conf/CommonModules/яя_тестыКлиент/Ext/Module.bsl](docs/examples/conf/CommonModules/яя_тестыКлиент/Ext/Module.bsl) |
-| Тесты печати | [docs/examples/conf/CommonModules/яя_тестыПечать/Ext/Module.bsl](docs/examples/conf/CommonModules/яя_тестыПечать/Ext/Module.bsl) |
+Серверные тесты: [docs/examples/conf/CommonModules/яя_тестыСервер/Ext/Module.bsl](docs/examples/conf/CommonModules/яя_тестыСервер/Ext/Module.bsl)
+
+Клиентские тесты: [docs/examples/conf/CommonModules/яя_тестыКлиент/Ext/Module.bsl](docs/examples/conf/CommonModules/яя_тестыКлиент/Ext/Module.bsl)
+
+Тесты печати: [docs/examples/conf/CommonModules/яя_тестыПечать/Ext/Module.bsl](docs/examples/conf/CommonModules/яя_тестыПечать/Ext/Module.bsl)
 
 Я в тестировании не разбираюсь, поэтому не знаю как это называется. ИИ говорит что это **Модульные тесты 1С**, ему виднее.
 
