@@ -52,7 +52,7 @@ flowchart
 
 Вот суммаризация этого видео [Обновление1СЧерезGIT.summary.md](docs/Обновление1СЧерезGIT.summary.md)
 
-Ну и транскрибация, можно скормить ЛЛМ и проанализировать в нужном разрезе [Обновление1СЧерезGIT.speaker_transcriptions.csv](docs/Обновление1СЧерезGIT.speaker_transcriptions.csv)
+Ну и транскрибация, можно скормить ЛЛМ и проанализировать в нужном разрезе [Обновление1СЧерезGIT.speaker_transcriptions.csv](docs/Обновление1СЧерезGIT.speaker_transcriptions.csv). Например: ["Нарисуй мне схему процесса"](docs/update_process.mmd)
 
 
 ### Плюсы и минусы в сравнении с обновлением через конфигуратор
