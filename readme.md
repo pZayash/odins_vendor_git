@@ -42,7 +42,7 @@ config:
     showBranches: true
     showCommitLabel: true
 ---
-gitGraph
+gitGraph BT:
     commit id: "Исходная"
     branch dev
     checkout type
