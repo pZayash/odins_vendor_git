@@ -34,21 +34,28 @@
 На схеме ниже что примерно должно получиться в репозитарии:
 
 ```mermaid
-%%{init: {"gitGraph": {"mainBranchName": "type", "showBranches": true, "showCommitLabel": true}} }%%
+---
+config:
+  gitGraph:
+    mainBranchName: type
+    rotateCommitLabel: false
+    showBranches: true
+    showCommitLabel: true
+---
 gitGraph
-    commit id: "Исходная версия вендора"
+    commit id: "Исходная"
     branch dev
     checkout type
-    commit id: "Обновленная версия вендора"
+    commit id: "Обновленная"
     checkout dev
-    commit id: "Доработанная версия"
-    merge type id: "Доработанная с обновлением" tag: "git merge type"
+    commit id: "Доработанная"
+    merge type id: "Дораб.+обновление" tag: "merge type"
     checkout type
     commit id: "Обновленная +1"
     commit id: "Обновленная n"
     checkout dev
-    commit id: "Много наших доработок"
-    merge type id: "Очень доработанная с обновлением n" tag: "git merge type"
+    commit id: "Наши доработки"
+    merge type id: "Дораб.+обновление n" tag: "merge type"
 ```
 
 Эту схему можно исполнить как при ведении разработки в GIT, так и собрав такую структуру временно, только под обновление.
